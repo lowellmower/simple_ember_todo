@@ -1,3 +1,6 @@
+{{input type="text" id="new-todo" placeholder="What needs to be done?"
+    value=newTitle action="createTodo"}}
+
 <ul id="todo-list">
     {{#each todo in model}}
         {{todo-item todo=todo}}
